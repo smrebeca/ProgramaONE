@@ -1,0 +1,78 @@
+@media only screen and (max-width: 768px) {
+    .home {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .info,
+    .container-foto {
+        width: 100%;
+        padding: 0 10px;
+    }
+
+    .title {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .formcontato-text {
+        max-width: 100%;
+    }
+
+    .formcontato {
+        padding: 30px 10px;
+    }
+
+    .contato-img {
+        margin-bottom: 20px;
+    }
+
+    .menu ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .menu ul li {
+        margin-bottom: 10px;
+    }
+
+    .rede-social {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .rede-social li {
+        margin: 5px;
+    }
+
+    .skills .skills-box .skills-img,
+    .hobbies .hobbies-box .hobbies-img {
+        gap: 30px;
+    }
+
+    .academic,
+    .projetos {
+        margin-bottom: 10px;
+    }
+
+    .contaneir-projetos,
+    .projetos .container-projetos {
+        gap: 10px;
+    }
+
+    .projeto {
+        flex-basis: calc(100% - 20px);
+    }
+
+    .projeto img {
+        border-radius: 5px;
+    }
+
+    .btn-repositotio,
+    .btn-demo,
+    .btn-form {
+        padding: 8px 15px;
+        font-size: 14px;
+    }
+}
